@@ -1,0 +1,388 @@
+
+
+body {
+    margin: 0;
+    font-family: 'Lato', Arial, Helvetica, sans-serif; 
+}
+
+h1, h2, h3, h4, h5, h6 { 
+    font-family: 'Playfair Display', serif;
+  } 
+
+.wrapper {
+    margin: auto;
+}
+
+header {
+    max-width: 64em;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 3.125rem; /*50px*/
+    height: 4.8rem; /*55px*/
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.nav-li {
+    padding: 0.625rem; /*10px*/
+}
+
+.nav-li:hover {
+    padding: 0.625rem; /*10px*/
+    background-color: #000000;
+}
+
+.nav-li a {
+    color: #000000;
+}
+
+.nav-li a:hover{
+    color: #FDD037;
+}
+
+li {
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+}
+
+.menu-icon {
+    display: none
+  }
+
+/*------------------------------HERO------------------------------*/
+
+.hero {
+    height: 27.62rem; /*442px*/
+    background-image: url(../img/20p-polcadot-bg.jpg);
+    background-size: cover;
+    border: 00.031rem #000000 solid; /*0.5px*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-copy {
+    display: flex;
+    flex-direction: column;
+    margin-right: 3.125rem; /*50px*/
+
+}
+
+.hero-copy p {
+    margin: 1.56rem 0; /*25px*/
+}
+
+.hero-pic {
+    background-image: url('../img/Hero-display-pic.png');
+    background-size: auto;
+    width: 22.25rem; /*356px*/
+    height: 23.188rem; /*371px*/
+}
+
+h1 {
+    font-size: 3.8rem; /*46px*/
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.875rem; /*30px*/
+}
+
+h3 {
+    font-size: 1.563rem; /*25px*/
+}
+
+
+h4 {
+    font-size: 1.2rem; /*15px*/   
+}
+
+p {
+    font-size: 1rem;
+    margin: 3.1rem 0; /*18px*/
+}
+
+.hero-button {
+    width: 8.688rem; /*139px*/
+    height: 2.375rem;  /*38px*/
+    background-color: #F24333;
+    border: none;
+    border-radius: 0.625rem; /*10px*/
+    color: #ffffff;
+}
+
+.hero-button:hover {
+    background-color: #ffffff;
+    color: #000000;
+    border: #F24333 solid 0.125rem; /*2px*/
+}
+
+
+/*--------------------------Courses Section----------------------*/
+
+.courses {
+    margin: auto; /*24px*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.courses-gallery {
+    display: flex;
+    flex-direction: row; 
+    gap: 0.625rem; /*10px*/
+}
+
+
+.courses-boxes {
+    position: relative;
+    text-align: center;
+    color: #ffffff; 
+    gap: 4rem;
+}
+
+.courses-boxes h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000000;
+    -webkit-text-stroke: 0.1px #ffffff;
+}
+
+.item1 {
+    width: 16rem;
+    height: 207px;
+}
+
+.courses-boxes h3:hover {
+    color: #F24333;
+    -webkit-text-stroke: 0.5px #ffffff;
+}
+
+
+/*--------------------------Coming Soon---------------*/
+
+.coming-soon {
+    margin: 4em; /*24px*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.soon-boxes {
+    display: flex;
+    flex-direction: row;
+    border: 0.031rem #000000 solid; /*0.5px*/
+}
+
+.project-management {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: left;
+    padding-left: 2.125rem; /*34px*/
+    padding-right: 4rem; /*25px*/
+    background-color: #ffffff;
+}
+
+
+.coming-soon-button {
+    width: 8.688rem; /*139px*/
+    height: 2.375rem; /*38px*/
+    background-color: #F24333;
+    color: #ffffff;
+    border: none;
+    border-radius: 0.625rem /*10px*/
+}
+
+.coming-soon-button:hover {
+    background-color: #ffffff;
+    color: #000000;
+    border: #F24333 solid 0.125rem; /*2px*/
+}
+
+
+
+/*----------------Tools-------------------------*/
+
+.tools {
+    margin: 4em; /*24px*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tools-gallery {
+    display: flex;
+    flex-direction: row;
+    gap: 0.625rem; /*10px*/
+}
+
+.item-four {
+    position: relative;
+    text-align: center;
+    color: #ffffff; 
+}
+
+.item-four h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.item-five {
+    position: relative;
+    text-align: center;
+    color: #ffffff; 
+}
+
+.item-five h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.item-six {
+    position: relative;
+    text-align: center;
+    color: #ffffff; 
+}
+
+.item-six h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*-------------------Footer--------------------------*/
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+footer h4 {
+    text-decoration: underline;
+    justify-content: right;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+/*--------------------------Responsive Design----------------------*/
+
+
+@media screen and (max-width: 64em) { /*desktop*, small laptop < 1024px */
+   .wrapper {
+        max-width: 64rem;
+        margin: auto;
+   }  
+}
+
+@media screen and (max-width: 48em) { /*tablet, < 768px*/
+    
+    header {
+        padding: 0 2rem
+    }
+
+    .hero-pic {
+        display: none
+        ;
+    }
+
+    .courses-gallery {
+        display: flex;
+        flex-direction: column;
+    }
+
+   }  
+
+
+@media screen and (max-width: 30em) { /*mobile, < 480px */
+    .menu-icon {
+        display: block;
+        margin-left: 18rem;
+      }
+
+    .nav-expanded {
+    height: auto;
+    }
+
+    header {
+        margin: 2rem 0;
+    }
+    
+    .logo {
+        display: none;
+    }
+
+    nav {
+        height: 35px;
+        overflow: hidden;
+    }
+    
+    nav li {
+        flex-basis: 100%;
+    }
+
+    
+    .hero {
+        padding: 3rem 3rem;
+    }
+
+    .item1 {
+        width: 538px;
+        height: 400px;
+    }
+
+    .item2 {
+        width: 538px;
+        height: 400px;
+    }
+
+    .item3 {
+        width: 538px;
+        height: 400px;
+    }
+    
+    .soon-boxes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project-management {
+        padding: 3rem 4rem;
+    }
+
+    .tools-gallery {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer {
+        width: auto;
+    }
+}
